@@ -1,0 +1,46 @@
+body{
+    background-color: #E0F7FA;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#container{
+    width: 95%;
+    margin: auto;
+}
+#banner{
+    background-color: #00838F;
+    height: 200px;
+}
+nav{
+    background-color: #006064;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+main > div{
+    height: 350px;
+    width: 33%;
+    float: left;
+}
+footer{
+    background-color: #006064;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    clear: both;
+}
+ul{
+    text-align: left;
+}
+input[type=reset],
+input[type=button]{
+    background-color: #00838F;
+    color: white;
+}
+input[type=reset]:hover,
+input[type=button]:hover{
+    background-color: #80DEEA;
+}
